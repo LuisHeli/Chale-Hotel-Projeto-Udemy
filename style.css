@@ -25,8 +25,22 @@ header {
 }
 .cabecalho {
     position: relative;
-    top: 15px;
+    top: 0px;
     left: 50px;
+}
+#line-1 {
+    background-color: #A99F53;
+    position: relative;
+    top: 10px;
+    width: 500px;
+    right: 50px;
+}
+#line-2 {
+    background-color: #A99F53;
+    position: relative;
+    bottom: 10px;
+    width: 500px;
+    right: 50px;
 }
 
 .cabecalho h2 {
@@ -46,16 +60,106 @@ header {
     position: relative;
     left: 50px;
 }
+.cabecalho a:hover {
+    color: rgb(165, 138, 0);
+    background-color: #b1a96e;
+}
 .bar-lateral {
-
+    position: relative;
+    bottom: 30px;
 }
 .bar-lateral a {
     font-size: 1em;
     font-weight: 400;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     text-decoration: none;
-    
+    color: rgb(60, 50, 0);
+
     padding: 5px;
     display: block;
     width: 130px;
+    position: relative;
+    top: 20px;
+    left: 43px;
+}
+.bar-lateral a:hover {
+    color: rgb(165, 138, 0);
+    transition: 300ms;
+}
+.right-header img {
+    position: relative;
+    bottom: 175px;
+    right: 80px;
+}
+
+/* Main */
+
+/* Seção 1 esquerda */
+
+.sec-1-left {
+    position: relative;
+    top: 15px;
+    background-color: #FFFDDE;
+    height: 420px;
+    width: 46%;
+    display: inline-block;
+}
+.sec-1-left h1 {
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 1.3em;
+    color: #847A42;
+
+}
+.sec-1-left p {
+    font-size: 0.9em;
+    padding-left: 15px;
+    font-weight: 600;
+}
+
+/* Seção 2 direita */
+
+.sec-2-right {
+    background-color: #F0ECC5;
+    height: 420px;
+    width: 54%;
+    position: relative;
+    display: inline-block;
+    float: right;
+    right: 2px;
+    bottom: 405px;
+}
+#beneficios {
+    list-style: none;
+}
+#beneficios li {
+    padding: 8px;
+    border-bottom: 1px solid #ffffff;
+    height: 6em;
+}
+#beneficios li a img {
+   float: left;
+}
+#beneficios a {
+    text-decoration: none;
+}
+#beneficios li a h2 {
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+    font-size: 1.1em;
+    color: #615b2d;
+    padding: 5px 0;
+}
+#beneficios li a p {
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+    font-size: 0.8em;
+    color: black;
+}
+#beneficios li:hover {
+    background: #f6f3d6;
+    transition: 300ms;
+    cursor: pointer;
 }
