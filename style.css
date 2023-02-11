@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
 
 body {
     margin: 0;
@@ -24,13 +25,14 @@ header {
 }
 .cabecalho {
     position: relative;
-    top: 30px;
-    left: 80px;
+    top: 15px;
+    left: 50px;
 }
 
 .cabecalho h2 {
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 100;
+    font-family: 'Cinzel', serif;
 
 }
 .cabecalho a {
@@ -42,5 +44,18 @@ header {
 
     padding: 5px;
     position: relative;
-    left: 80px;
+    left: 50px;
+}
+.bar-lateral {
+
+}
+.bar-lateral a {
+    font-size: 1em;
+    font-weight: 400;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-decoration: none;
+    
+    padding: 5px;
+    display: block;
+    width: 130px;
 }
